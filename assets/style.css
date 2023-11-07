@@ -321,11 +321,18 @@ font-family: 'Noto Sans Thai', sans-serif; */
   width: 100%;
 }
 
+@media screen and (max-width: 550px) {
+  .c1-name .description {
+    top: 40%;
+  }
+}
+
 @media screen and (max-width: 750px) {
   .c1-name .name {
     font-size: 25px;
   }
   .c1-name .description {
+    top: 35%;
     width: 75%;
     font-size: 18px;
   }
