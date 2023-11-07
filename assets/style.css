@@ -285,12 +285,11 @@ font-family: 'Noto Sans Thai', sans-serif; */
 
 .story {
   display: grid;
+  column-gap: 0px;
   grid-template-columns: 2fr 1fr;
   width: 90%;
-  justify-content: center;
-  align-items: center;
   padding: 10px;
-  padding-bottom: 5vh;
+  margin-bottom: 100px;
 }
 
 .story#cv {
@@ -313,6 +312,10 @@ font-family: 'Noto Sans Thai', sans-serif; */
 
 .story img {
   width: 80%;
+}
+
+.story #st {
+  padding-left: 10vw;
 }
 
 .story .boxstory .text {
